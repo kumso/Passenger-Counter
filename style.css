@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20vh;
+    color: white;
+}
+
+.container h1 {
+    font-size: 3em;
+}
+
+.container h2{
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+button{
+   border: none;
+   margin-top: 10px;
+   border-radius: 2px;
+   font-size: 17px;
+   color:white;
+   padding: 5px;
+} 
+
+#increment-btn{
+    background-color: #2da242;
+}
+
+#save-btn{
+    background-color: blueviolet;
+    color: white;
+}
+
+#save-el{
+    margin-top: 10px;
+    font-size: 1.5em;
+}
